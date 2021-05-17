@@ -27,7 +27,7 @@ public class MyLinkedList<T> {
     public void print() {
         Node n;
         n = head;
-        while(n.next != null){
+        while(n != null){
             System.out.println(n.data);
             n=n.next;
         }
