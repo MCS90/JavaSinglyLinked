@@ -1,9 +1,7 @@
-package com.company;
-
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
         MyLinkedList<Integer> mylist = new MyLinkedList<Integer>();
         mylist.appendNode(5);
         mylist.appendNode(6);
